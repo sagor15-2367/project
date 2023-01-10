@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+   <h2>Welcome to our pitha ghor</h2> 
+   <form>
+    <label for="name">Your Name <input id="name" type="text" placeholder="Your Name">
+    </label> 
+    <label for="email">Your Email <input id="email" type="email" placeholder="Your Email">
+    </label>
+    <fieldset>
+        <legend>pick one  pitha</legend>
+        <label for="Chitoy">
+           <input type="radio" name="Pitha" id="Chitoy"> Chitoy
+        </label>
+        <label for="Vapa">
+           <input type="radio" name="Pitha" id="Vapa"> Vapa
+        </label>
+        <label for="7-khola">
+           <input type="radio" name="Pitha" id="7-khola"> 7-khola
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>One or more Vortta</legend>
+        <label for="Alu">
+            <input type="checkbox" name="Vorta" id="Alu">Alu Vorta
+        </label>
+        <label for="Sutki">
+            <input type="checkbox" name="Vorta" id="Sutki">Sutki Vorta
+        </label>
+        <label for="Mas">
+            <input type="checkbox" name="Vorta" id="Mas">Mas Vorta
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Special Instruction</legend>
+        <textarea name="" id="" cols="60" rows="3"></textarea>
+    </fieldset>
+    <input type="reset" value="Reset">
+    <input type="Submit" value="Submit">
+   </form>
+</body>
+</html>
