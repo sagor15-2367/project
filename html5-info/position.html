@@ -10,11 +10,19 @@
             border: 1px dashed chartreuse ;
             width: 200px;
         }
+        #boy{
+            position: relative;
+            top: 75px;
+            z-index: 3;
+        }
         #ring{
-            position: sticky;
-            left: 0px;
-            top: 100px;
-            
+            position: relative;
+            z-index: 2;
+        }
+        #water{
+            position: relative;
+           top: -75px;
+            z-index: 1;
         }
         .dummy{
             height: 150px;
@@ -30,9 +38,9 @@
         <h2>I have a higher position</h2>
    </section>
    <section class="swimming">
-        <div><img src="../html5-info/images/boy.svg" alt=""></div>
+        <div id="boy"><img src="../html5-info/images/boy.svg" alt=""></div>
         <div id="ring"><img src="../html5-info/images/ring.svg" alt=""></div>
-        <div><img src="../html5-info/images/water.svg" alt=""></div>
+        <div id="water"><img src="../html5-info/images/water.svg" alt=""></div>
         <div class="dummy"></div>
         <div class="dummy"></div>
         <div class="dummy"></div>
