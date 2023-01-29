@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: aqua;
+        }
+        h1:hover{
+            color: blue;
+            background-color: blueviolet;
+            margin: 50px;
+            padding: 50px;
+            font-size: 50px;
+        }
+        .middle-person:focus{
+            color: blue;
+            font-weight: 700;
+        }
+        a:visited{
+            color: blueviolet;
+        }
+
+        li:last-child{
+            color: chartreuse;
+            background-color: black;
+        }
+        li:first-child{
+            color: deepskyblue;
+        }
+        li:nth-last-child(2n){
+            background-color: gold;
+        }
+        /*pseudo element */
+        h3::before {
+            content: 'hello';
+        }
+        .special::after{
+            content: ' gello';
+            background-color: aqua;
+            font-size: 25px;
+
+        }
+    </style>
+</head>
+<body>
+   <h1> This is Normal</h1>
+   <input type="text">
+   <input class="middle-person" type="text">
+   <input type="text">
+   <br>
+   <a href="https://github.com/sagor15-2367">My Git Link</a>
+   <a href="https://academic.naver.com/">Never visited</a>
+   <a href="https://www.programming-hero.com/">Programminghiro</a>
+   <br>
+   <h3>middle size header -1</h3>
+   <h3 class="special">middle size header -2</h3>
+   <h3>middle size header -3</h3>
+   <h3 class="special">middle size header -4</h3>
+   <h3 class="special">middle size header -5</h3>
+   <h3>middle size header -6</h3>
+   <ul>
+    <li>Alia</li>
+    <li>Sagor</li>
+    <li>Saon</li>
+    <li>Bijury</li>
+    <li>Sanu</li>
+    <li>Ritu</li>
+   </ul>
+</body>
+</html>
