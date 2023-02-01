@@ -1,0 +1,13 @@
+.box-container,.sagor{
+    height: 150px;
+    width: 150px;
+    
+}
+.box-container{
+    border: 5px solid salmon;
+    background-color: aqua;
+}
+.sagor{
+    background-color: blueviolet;
+    transform: rotate(30deg);
+}
